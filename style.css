@@ -118,14 +118,20 @@ main {
 }
 
 #left-item button {
-    background-color: #ff6584;
-    color: white;
-    border: none;
-    border-radius: 20px;
-    padding: 10px 32px;
+  background-color: #ff6584;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 32px;
 	font-size: 16px;
 	outline: none;
 	margin-top: 50px;
+}
+
+#left-item button:hover {
+	color:  #ff6584;
+	background-color:#3f3d56c0;
+	cursor: pointer;
 }
 
 @keyframes left{
